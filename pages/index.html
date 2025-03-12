@@ -9,15 +9,17 @@
 </head>
 
 <body>
+    <!-- GET -->
+    <!-- POST, PUT, DELETE -->
 
     <div id="conteudo"> <!-- PAI -->
-        <input type="email" class="input"> <!-- FILHOS -->
-        <input type="password" class="input"> <!-- FILHOS -->
-        <button id="botao-entrar">Entrar</button> <!-- FILHOS -->
+        <form method="post"> <!-- PAI -->
+            <input name="email" type="email" class="input" placeholder="Informe seu e-mail!" required> <!-- FILHOS -->
+            <input name="senha" type="password" class="input" placeholder="Informe sua senha!" required> <!-- FILHOS -->
+            <button type="submit" id="botao-entrar">Entrar</button> <!-- FILHOS -->
+        </form>
     </div>
 
-
-    <script src="../script.js"></script>
 </body>
 
 </html>
