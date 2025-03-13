@@ -1,0 +1,34 @@
+body {
+    background-color: #0F0F0F;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: #000;
+    border-radius: 12px;
+}
+
+.card-logo {
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-conteudo {
+    padding: 5px;
+    text-align: center;
+}
+.card-titulo {
+    color: #FFF;
+    font-size: 22px;
+}
+.card-serie-acessar {
+    width: 80%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #F5F5F5;
+    border: solid 2px #000;
+    font-weight: 700;
+}
